@@ -1,0 +1,485 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{0E5D70AB-9532-4D81-B3B1-D7474848F175}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "IDR"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "IDR"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChangeLog.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.vb"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx.resx"
+                    DependentUpon = "default.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "IDR.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "IDR.aspx.vb"
+                    DependentUpon = "IDR.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IDR.aspx.resx"
+                    DependentUpon = "IDR.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "IDRData.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IDRForm.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "IDRForm.aspx.vb"
+                    DependentUpon = "IDRForm.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IDRForm.aspx.resx"
+                    DependentUpon = "IDRForm.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "IDR-Setup.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "IDR-Setup.aspx.vb"
+                    DependentUpon = "IDR-Setup.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IDR-Setup.aspx.resx"
+                    DependentUpon = "IDR-Setup.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "login.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "login.aspx.vb"
+                    DependentUpon = "login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "login.aspx.resx"
+                    DependentUpon = "login.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "logout.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "logout.aspx.vb"
+                    DependentUpon = "logout.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "logout.aspx.resx"
+                    DependentUpon = "logout.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NetTest.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NetTest.aspx.vb"
+                    DependentUpon = "NetTest.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NetTest.aspx.resx"
+                    DependentUpon = "NetTest.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\Main.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\Main.aspx.vb"
+                    DependentUpon = "Main.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\Main.aspx.resx"
+                    DependentUpon = "Main.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ManageClient.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ManageClient.aspx.vb"
+                    DependentUpon = "ManageClient.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ManageClient.aspx.resx"
+                    DependentUpon = "ManageClient.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ManageContracts.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ManageContracts.aspx.vb"
+                    DependentUpon = "ManageContracts.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ManageContracts.aspx.resx"
+                    DependentUpon = "ManageContracts.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ManageUsers.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ManageUsers.aspx.vb"
+                    DependentUpon = "ManageUsers.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ManageUsers.aspx.resx"
+                    DependentUpon = "ManageUsers.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Common\footer.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Employee\InspectorManageMain.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Employee\InspectorManageMain.aspx.vb"
+                    DependentUpon = "InspectorManageMain.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Employee\InspectorManageMain.aspx.resx"
+                    DependentUpon = "InspectorManageMain.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Lib\ShowIDR.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Lib\ShowIDR.aspx.vb"
+                    DependentUpon = "ShowIDR.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Lib\ShowIDR.aspx.resx"
+                    DependentUpon = "ShowIDR.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\ContractStatus.asmx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reports\ContractStatus.asmx.vb"
+                    DependentUpon = "ContractStatus.asmx"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\ContractStatus.asmx.resx"
+                    DependentUpon = "ContractStatus.asmx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\ContractStatus.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reports\ContractStatus.aspx.vb"
+                    DependentUpon = "ContractStatus.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\ContractStatus.aspx.resx"
+                    DependentUpon = "ContractStatus.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\DevReport.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reports\DevReport.aspx.vb"
+                    DependentUpon = "DevReport.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\DevReport.aspx.resx"
+                    DependentUpon = "DevReport.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\ECS.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reports\ECS.aspx.vb"
+                    DependentUpon = "ECS.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\ECS.aspx.resx"
+                    DependentUpon = "ECS.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\EmployeeSummary.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reports\EmployeeSummary.aspx.vb"
+                    DependentUpon = "EmployeeSummary.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\EmployeeSummary.aspx.resx"
+                    DependentUpon = "EmployeeSummary.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\IDRDisp.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\IDRDump.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reports\IDRDump.aspx.vb"
+                    DependentUpon = "IDRDump.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\IDRDump.aspx.resx"
+                    DependentUpon = "IDRDump.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\IDRView.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reports\IDRView.ascx.vb"
+                    DependentUpon = "IDRView.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\IDRView.ascx.resx"
+                    DependentUpon = "IDRView.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\menu.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reports\menu.aspx.vb"
+                    DependentUpon = "menu.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\menu.aspx.resx"
+                    DependentUpon = "menu.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\TimeReport.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reports\TimeReport.aspx.vb"
+                    DependentUpon = "TimeReport.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\TimeReport.aspx.resx"
+                    DependentUpon = "TimeReport.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Stylesheets\Reports.css"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+
